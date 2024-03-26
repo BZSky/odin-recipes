@@ -1,3 +1,16 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -7,18 +20,36 @@ body {
 }
 
 h1 {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 img {
   border-radius: 15%;
   width: 300px;
   height: auto;
-}
-
-ul {
+  padding: 8px;
+  background-color: gray;
+  margin-bottom: 50px;
 }
 
 li {
-  display: block;
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: gray;
+  border-radius: 16px;
+}
+
+div {
+  border: 4px dashed rgb(255, 0, 0, 0.5);
+  width: fit-content;
+  margin: 20px auto;
+}
+
+ul {
+  padding: 10px;
+}
+
+a {
+  color: #f4eeaf;
 }
