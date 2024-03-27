@@ -32,12 +32,21 @@ img {
   margin-bottom: 50px;
 }
 
+ul {
+  padding: 10px;
+}
+
+ol {
+  padding: 10px;
+}
+
 li {
   display: inline-block;
   margin: 8px;
   padding: 8px 16px;
   background-color: gray;
   border-radius: 16px;
+  color: #f4eeaf;
 }
 
 div {
@@ -46,10 +55,26 @@ div {
   margin: 20px auto;
 }
 
-ul {
-  padding: 10px;
+span {
+  display: inline-block;
+  background-color: gray;
+  padding: 8px;
+  border-radius: 16px;
 }
 
 a {
   color: #f4eeaf;
+}
+
+.desc {
+  width: 50%;
+  border: none;
+}
+
+.ingredients {
+  width: 50%;
+}
+
+.steps {
+  width: 50%;
 }
